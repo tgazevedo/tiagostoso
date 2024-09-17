@@ -1,0 +1,60 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 100px;                         /*fazer esta linha*/
+}
+
+header{
+    border-bottom: solid 2px rgb(42,122,128);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42,122,228);
+}
+
+.chamada{
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    display: flex;
+    padding-top: 80px;                /*fazer esta linha*/
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-vídeos img:hover{
+    opacity: 1.0;                      /* usar ponto [.] */
+    border: 3px solid green;
+}
+
+.categoria-vídeos img{         /*fazer este bloco*/
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-vídeos{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;  
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;         /*faltou essa linha*/
+}
+
+.categoria h2 {                         /*fazer este bloco*/
+    color: rgb(42, 122, 228);
+}
